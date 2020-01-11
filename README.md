@@ -37,7 +37,7 @@ http://trafalbad.hatenadiary.jp/entry/2017/09/30/142505
 
 
 
-# Project2. DCGAN_and_VGGNet
+# Project2. Naivebays_and_Doc2vec
 Naive bays model to clean apartment name and Doc2vec model to display similar articles for SEO
 
 
