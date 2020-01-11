@@ -1,4 +1,3 @@
-# ML_projects_when_internship_students
 Summarize my ML projects when 2017 working as internship student
 
 # Project1. DCGAN_and_VGGNet
