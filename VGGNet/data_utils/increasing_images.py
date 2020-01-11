@@ -102,8 +102,6 @@ def flip(img_batch):
     flip_img=[cv2.flip(i, 1) for i in img_batch]
     return flip_img
 
-    seen10000 = np.r_[seen5000, flip_img]
-
 def increase_image(img_batch):
     low_cont_img, high_cont_img = change_contrast(img_batch)
     gamma_img = chage_gamma_contrast(img_batch)
@@ -131,7 +129,7 @@ def increase():
     img_batch = [get_image(path1+'/'+batch, input_height, input_wide, resize_height=64, resize_width=64,
                   crop=True,grayscale=False) for batch in lobby_name_order]
     with open('ロビーtrain128.pickle', mode='wb') as f:
-        pickle.dump(seen10000, f)
+        pickle.dump(img_batch, f)
 
         
 if __name__ == '__main__':
