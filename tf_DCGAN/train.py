@@ -9,7 +9,7 @@ import time
 import tensorflow.contrib.slim as slim
 from DCGAN.dcgan_functions import *
 from DCGAN.help_func import *
-
+from DCGAN.tensorflow_dcgan import *
 
 def saple_train():
     with tf.Session(config=run_config) as sess:
